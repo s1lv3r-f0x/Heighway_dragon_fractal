@@ -1,9 +1,12 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <Windows.h>
 #include <GL/glut.h>
+#include <iostream>
 
+using namespace std;
 
-double n = 8;
+int n;
+
 void Matr(double xA, double yA, double xB,
     double yB, int n)
 {
@@ -33,11 +36,13 @@ void Draw()
 
 int main(int argc, char** argv)
 {
+    cout << "Enter fractal order:" << endl;
+    cin >> n;
     glutInit(&argc, argv);
     glutInitDisplayMode(GLUT_RGB);
     glutInitWindowPosition(200, 200);
     glutInitWindowSize(600, 600);
-    glutCreateWindow("Фрактал Дракон Хартера-Хейтуэя");
+    glutCreateWindow("Heighway dragon fractal");
     glClearColor(0.0, 0.0, 0.0, 1.0);
     glutDisplayFunc(Draw);
     glutMainLoop();
