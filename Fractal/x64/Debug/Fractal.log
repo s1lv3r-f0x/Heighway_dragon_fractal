@@ -1,0 +1,17 @@
+﻿  Source.cpp
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glBegin в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glClear в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glClearColor в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glColor3d в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glEnd в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glFinish в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glLineWidth в функции "void __cdecl Draw(void)" (?Draw@@YAXXZ).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ __imp_glVertex2d в функции "void __cdecl Matr(double,double,double,double,int)" (?Matr@@YAXNNNNH@Z).
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInit в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitDisplayMode в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowPosition в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutInitWindowSize в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutMainLoop в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutCreateWindow в функции main.
+Source.obj : error LNK2019: ссылка на неразрешенный внешний символ glutDisplayFunc в функции main.
+C:\Users\yatin\source\repos\Fractal\x64\Debug\Fractal.exe : fatal error LNK1120: неразрешенных внешних элементов: 15
